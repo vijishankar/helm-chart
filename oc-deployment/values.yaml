@@ -11,6 +11,6 @@ service:
   name: ui
   targetport: 8080
   
-container:
+containers:
   name: react-ui
   
