@@ -18,6 +18,9 @@ spec:
         - name: {{ .Values.containers.name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
+          envFrom:
+           - secretRef:
+               name: my-secret
           ports:
             - name: http
               containerPort: {{ .Values.service.targetport }}
