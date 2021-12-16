@@ -1,7 +1,7 @@
 replicaCount: 2
 
 image:
-  repository: 112715105011/hello-java-spring-boot
+  repository: javaee/springdemo
   pullPolicy: IfNotPresent
   tag: latest
 
