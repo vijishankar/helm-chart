@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: {{ .Values.containers.name }}
-          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          image: "us-docker.pkg.dev/google-samples/containers/gke/hello-app:1.0"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           envFrom:
            - secretRef:
