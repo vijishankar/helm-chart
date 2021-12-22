@@ -1,9 +1,9 @@
 replicaCount: 2
 
 image:
-  repository: bitnami/java-example
+  repository: us-docker.pkg.dev/google-samples/containers/gke/hello-app
   pullPolicy: IfNotPresent
-  tag: latest
+  tag: 1.0
 
 service:
   type: ClusterIP
