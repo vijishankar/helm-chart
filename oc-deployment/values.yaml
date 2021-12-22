@@ -1,7 +1,7 @@
 replicaCount: 2
 
 image:
-  repository: javaee/springdemo
+  repository: bitnami/java-example
   pullPolicy: IfNotPresent
   tag: latest
 
