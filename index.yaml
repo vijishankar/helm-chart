@@ -9,6 +9,6 @@ entries:
     name: oc-deployment
     type: application
     urls:
-    - oc-deployment-0.1.0.tgz
+    - https://gopalakrishnan997.github.io/helm-chart/oc-deployment-0.1.0.tgz
     version: 0.1.0
 generated: "2021-12-30T16:37:33.209004+05:30"
